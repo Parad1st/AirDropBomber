@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514083232C077DAE006F5EAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 514083212C077DAE006F5EAA /* Localizable.strings */; };
 		CE32790F293049D6007B2098 /* Trollface.png in Resources */ = {isa = PBXBuildFile; fileRef = CE32790A293049D6007B2098 /* Trollface.png */; };
 		CE327920293049DE007B2098 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE327914293049DE007B2098 /* ImagePickerView.swift */; };
 		CE327921293049DE007B2098 /* AirDropBomberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE327915293049DE007B2098 /* AirDropBomberApp.swift */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		514083222C077DAE006F5EAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		514083242C077DB1006F5EAA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE3278F7293049BF007B2098 /* AirDropBomber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropBomber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE327908293049D6007B2098 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE32790A293049D6007B2098 /* Trollface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trollface.png; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 				CE32791B293049DE007B2098 /* Preview Content */,
 				CE327917293049DE007B2098 /* trolldrop */,
 				CE327912293049DE007B2098 /* AirDropBomber-Bridging-Header.h */,
+				514083212C077DAE006F5EAA /* Localizable.strings */,
 			);
 			path = AirDropBomber;
 			sourceTree = "<group>";
@@ -187,7 +191,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ru,
 			);
 			mainGroup = CE3278EE293049BF007B2098;
 			productRefGroup = CE3278F8293049BF007B2098 /* Products */;
@@ -205,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE32790F293049D6007B2098 /* Trollface.png in Resources */,
+				514083232C077DAE006F5EAA /* Localizable.strings in Resources */,
 				CE327928293049DE007B2098 /* Assets.xcassets in Resources */,
 				CE327926293049DE007B2098 /* Preview Assets.xcassets in Resources */,
 			);
@@ -230,6 +235,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		514083212C077DAE006F5EAA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514083222C077DAE006F5EAA /* en */,
+				514083242C077DB1006F5EAA /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE327903293049BF007B2098 /* Debug */ = {
@@ -375,7 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.Parad1st.AirDropBomber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -401,7 +418,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/entitlements.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AirDropBomber;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Well, you've clicked this button to select photos, what did you exoect?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Well, you've clicked this button to select photos, what did you expect?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,7 +429,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.Parad1st.AirDropBomber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
