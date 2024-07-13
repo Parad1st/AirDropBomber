@@ -4,4 +4,7 @@ AirDropBomber is the best app to troll an Apple user. The program spams a troll 
 
 ![Program](https://raw.githubusercontent.com/Parad1st/AirDropBomber/main/GitHub/Image/Program.jpg)
 
+##P.S.
+Программа не рабочая пока что
+
 
